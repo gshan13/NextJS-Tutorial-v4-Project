@@ -17,10 +17,13 @@ function AllEventsPage(props) {
     return (
         <>
             <Head>
+                <title>All my events</title>
+            </Head>
+            <Head>
                 <title>All Events</title>
                 <meta 
                     name="description"
-                    content=""
+                    content="Find a lot of great events that allow yo uto evolve..."
                 />
             </Head>
             <EventsSearch onSearch={findEventsHandler}/>
